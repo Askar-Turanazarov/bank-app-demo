@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand-dark: #1a0533;
+  --brand-primary: #3d1a78;
+  --brand-accent: #7c3aed;
+  --brand-success: #00c853;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, sans-serif;
+  background: linear-gradient(160deg, #0f0220 0%, #1a0533 40%, #2d1260 100%);
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@layer utilities {
+  .preserve-3d {
+    transform-style: preserve-3d;
+  }
+
+  .perspective-scene {
+    perspective: 1200px;
+  }
+
+  .glass {
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+  }
+
+  .card-gradient-visa {
+    background: linear-gradient(135deg, #1a237e 0%, #3949ab 50%, #5c6bc0 100%);
+  }
+
+  .card-gradient-humo {
+    background: linear-gradient(135deg, #1b5e20 0%, #388e3c 50%, #66bb6a 100%);
+  }
+
+  .card-gradient-uzcard {
+    background: linear-gradient(135deg, #e65100 0%, #f57c00 50%, #ffb74d 100%);
+  }
+}
+
+/* Apple theme */
+.theme-apple body {
+  background: linear-gradient(160deg, #f5f5f7 0%, #e0e0e3 60%, #c7c7ca 100%);
+  color: #1d1d1f;
+}
+.theme-apple .glass {
+  background: rgba(255, 255, 255, 0.45);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+

@@ -1,0 +1,109 @@
+{
+  "common": {
+    "confirm": "Tasdiqlash",
+    "cancel": "Bekor qilish",
+    "back": "Orqaga",
+    "delete": "O'chirish",
+    "save": "Saqlash",
+    "loading": "Yuklanmoqda...",
+    "home": "Bosh sahifa",
+    "default": "Asosiy"
+  },
+  "nav": {
+    "home": "Bosh sahifa",
+    "payments": "To'lovlar",
+    "cards": "Kartalar",
+    "history": "Tarix"
+  },
+  "dashboard": {
+    "greeting": "Xayrli kun",
+    "totalBalance": "Umumiy balans",
+    "recentTransactions": "So'nggi operatsiyalar",
+    "noTransactions": "Operatsiyalar yo'q",
+    "pay": "To'lash",
+    "addCard": "Karta qo'shish",
+    "viewHistory": "Tarix"
+  },
+  "cards": {
+    "title": "Mening kartalarim",
+    "addCard": "Karta qo'shish",
+    "cardNumber": "Karta raqami",
+    "expiry": "Amal qilish muddati",
+    "holder": "Karta egasi",
+    "type": "Karta turi",
+    "initialBalance": "Boshlang'ich balans",
+    "setDefault": "Asosiy qilish",
+    "deleteCard": "Kartani o'chirish",
+    "noCards": "Sizda hali kartalar yo'q",
+    "invalidNumber": "Noto'g'ri karta raqami",
+    "invalidExpiry": "Noto'g'ri amal qilish muddati",
+    "holderRequired": "Karta egasini kiriting"
+  },
+  "payments": {
+    "title": "To'lovlar",
+    "categories": "Kategoriyalar",
+    "selectService": "Xizmatni tanlang",
+    "phoneNumber": "Telefon raqami",
+    "accountNumber": "Shaxsiy hisob",
+    "phonePlaceholder": "+998 90 123 45 67",
+    "accountPlaceholder": "1234567890",
+    "amount": "Summa",
+    "selectCard": "Kartani tanlang",
+    "confirm": "To'lovni tasdiqlash",
+    "processing": "To'lov qayta ishlanmoqda...",
+    "success": "To'lov muvaffaqiyatli",
+    "details": "To'lov tafsilotlari",
+    "service": "Xizmat",
+    "account": "Hisob",
+    "card": "Karta",
+    "pay": "To'lash"
+  },
+  "categories": {
+    "mobile": "Mobil aloqa",
+    "internet": "Internet",
+    "utilities": "Kommunal",
+    "tv": "Televidenie",
+    "education": "Ta'lim",
+    "taxes": "Jarimalar va soliqlar"
+  },
+  "services": {
+    "beeline": "Beeline",
+    "ucell": "Ucell",
+    "mobiuz": "Mobiuz",
+    "uzmobile": "Uzmobile",
+    "perfectum": "Perfectum Mobile",
+    "beelineInternet": "Beeline Internet",
+    "uztelecom": "Uztelecom",
+    "electricity": "Elektr energiya",
+    "gas": "Gaz",
+    "water": "Suv",
+    "mahsustrans": "Mahsustrans",
+    "itv": "iTV",
+    "allplay": "Allplay",
+    "university": "Universitetlar",
+    "school": "Maktablar",
+    "gibdd": "GIBDD",
+    "taxes": "Soliqlar"
+  },
+  "history": {
+    "title": "Tarix",
+    "all": "Hammasi",
+    "payments": "To'lovlar",
+    "topups": "To'ldirishlar",
+    "noTransactions": "Tranzaksiyalar yo'q",
+    "status": {
+      "success": "Muvaffaqiyatli",
+      "pending": "Jarayonda",
+      "failed": "Xato"
+    }
+  },
+  "errors": {
+    "insufficientFunds": "Mablag' yetarli emas",
+    "invalidAmount": "To'g'ri summani kiriting",
+    "cardNotFound": "Karta topilmadi",
+    "serviceNotFound": "Xizmat topilmadi"
+  },
+  "app": {
+    "name": "Askar Bank"
+  }
+}

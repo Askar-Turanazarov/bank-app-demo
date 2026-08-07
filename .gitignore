@@ -1,0 +1,5 @@
+node_modules/
+.gitignrore
+PRD-SPEC.md
+npm-cache/
+promt.txt

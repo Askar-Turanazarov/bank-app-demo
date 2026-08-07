@@ -1,0 +1,109 @@
+{
+  "common": {
+    "confirm": "Подтвердить",
+    "cancel": "Отмена",
+    "back": "Назад",
+    "delete": "Удалить",
+    "save": "Сохранить",
+    "loading": "Загрузка...",
+    "home": "На главную",
+    "default": "Основная"
+  },
+  "nav": {
+    "home": "Главная",
+    "payments": "Платежи",
+    "cards": "Карты",
+    "history": "История"
+  },
+  "dashboard": {
+    "greeting": "Добрый день",
+    "totalBalance": "Общий баланс",
+    "recentTransactions": "Последние операции",
+    "noTransactions": "Нет операций",
+    "pay": "Оплатить",
+    "addCard": "Добавить карту",
+    "viewHistory": "История"
+  },
+  "cards": {
+    "title": "Мои карты",
+    "addCard": "Добавить карту",
+    "cardNumber": "Номер карты",
+    "expiry": "Срок действия",
+    "holder": "Имя держателя",
+    "type": "Тип карты",
+    "initialBalance": "Начальный баланс",
+    "setDefault": "Сделать основной",
+    "deleteCard": "Удалить карту",
+    "noCards": "У вас пока нет карт",
+    "invalidNumber": "Неверный номер карты",
+    "invalidExpiry": "Неверный срок действия",
+    "holderRequired": "Введите имя держателя"
+  },
+  "payments": {
+    "title": "Платежи",
+    "categories": "Категории",
+    "selectService": "Выберите сервис",
+    "phoneNumber": "Номер телефона",
+    "accountNumber": "Лицевой счёт",
+    "phonePlaceholder": "+998 90 123 45 67",
+    "accountPlaceholder": "1234567890",
+    "amount": "Сумма",
+    "selectCard": "Выберите карту",
+    "confirm": "Подтвердить оплату",
+    "processing": "Обработка платежа...",
+    "success": "Оплата успешна",
+    "details": "Детали платежа",
+    "service": "Сервис",
+    "account": "Счёт",
+    "card": "Карта",
+    "pay": "Оплатить"
+  },
+  "categories": {
+    "mobile": "Мобильная связь",
+    "internet": "Интернет",
+    "utilities": "Коммунальные",
+    "tv": "Телевидение",
+    "education": "Образование",
+    "taxes": "Штрафы и налоги"
+  },
+  "services": {
+    "beeline": "Beeline",
+    "ucell": "Ucell",
+    "mobiuz": "Mobiuz",
+    "uzmobile": "Uzmobile",
+    "perfectum": "Perfectum Mobile",
+    "beelineInternet": "Beeline Internet",
+    "uztelecom": "Uztelecom",
+    "electricity": "Электричество",
+    "gas": "Газ",
+    "water": "Вода",
+    "mahsustrans": "Mahsustrans",
+    "itv": "iTV",
+    "allplay": "Allplay",
+    "university": "Университеты",
+    "school": "Школы",
+    "gibdd": "ГИБДД",
+    "taxes": "Налоги"
+  },
+  "history": {
+    "title": "История",
+    "all": "Все",
+    "payments": "Платежи",
+    "topups": "Пополнения",
+    "noTransactions": "Нет транзакций",
+    "status": {
+      "success": "Успешно",
+      "pending": "В обработке",
+      "failed": "Ошибка"
+    }
+  },
+  "errors": {
+    "insufficientFunds": "Недостаточно средств",
+    "invalidAmount": "Введите корректную сумму",
+    "cardNotFound": "Карта не найдена",
+    "serviceNotFound": "Сервис не найден"
+  },
+  "app": {
+    "name": "Askar Bank"
+  }
+}

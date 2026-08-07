@@ -1,0 +1,109 @@
+{
+  "common": {
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "back": "Back",
+    "delete": "Delete",
+    "save": "Save",
+    "loading": "Loading...",
+    "home": "Home",
+    "default": "Default"
+  },
+  "nav": {
+    "home": "Home",
+    "payments": "Payments",
+    "cards": "Cards",
+    "history": "History"
+  },
+  "dashboard": {
+    "greeting": "Good afternoon",
+    "totalBalance": "Total balance",
+    "recentTransactions": "Recent transactions",
+    "noTransactions": "No transactions",
+    "pay": "Pay",
+    "addCard": "Add card",
+    "viewHistory": "History"
+  },
+  "cards": {
+    "title": "My cards",
+    "addCard": "Add card",
+    "cardNumber": "Card number",
+    "expiry": "Expiry date",
+    "holder": "Cardholder name",
+    "type": "Card type",
+    "initialBalance": "Initial balance",
+    "setDefault": "Set as default",
+    "deleteCard": "Delete card",
+    "noCards": "You have no cards yet",
+    "invalidNumber": "Invalid card number",
+    "invalidExpiry": "Invalid expiry date",
+    "holderRequired": "Enter cardholder name"
+  },
+  "payments": {
+    "title": "Payments",
+    "categories": "Categories",
+    "selectService": "Select service",
+    "phoneNumber": "Phone number",
+    "accountNumber": "Account number",
+    "phonePlaceholder": "+998 90 123 45 67",
+    "accountPlaceholder": "1234567890",
+    "amount": "Amount",
+    "selectCard": "Select card",
+    "confirm": "Confirm payment",
+    "processing": "Processing payment...",
+    "success": "Payment successful",
+    "details": "Payment details",
+    "service": "Service",
+    "account": "Account",
+    "card": "Card",
+    "pay": "Pay"
+  },
+  "categories": {
+    "mobile": "Mobile",
+    "internet": "Internet",
+    "utilities": "Utilities",
+    "tv": "Television",
+    "education": "Education",
+    "taxes": "Fines & taxes"
+  },
+  "services": {
+    "beeline": "Beeline",
+    "ucell": "Ucell",
+    "mobiuz": "Mobiuz",
+    "uzmobile": "Uzmobile",
+    "perfectum": "Perfectum Mobile",
+    "beelineInternet": "Beeline Internet",
+    "uztelecom": "Uztelecom",
+    "electricity": "Electricity",
+    "gas": "Gas",
+    "water": "Water",
+    "mahsustrans": "Mahsustrans",
+    "itv": "iTV",
+    "allplay": "Allplay",
+    "university": "Universities",
+    "school": "Schools",
+    "gibdd": "Traffic fines",
+    "taxes": "Taxes"
+  },
+  "history": {
+    "title": "History",
+    "all": "All",
+    "payments": "Payments",
+    "topups": "Top-ups",
+    "noTransactions": "No transactions",
+    "status": {
+      "success": "Success",
+      "pending": "Pending",
+      "failed": "Failed"
+    }
+  },
+  "errors": {
+    "insufficientFunds": "Insufficient funds",
+    "invalidAmount": "Enter a valid amount",
+    "cardNotFound": "Card not found",
+    "serviceNotFound": "Service not found"
+  },
+  "app": {
+    "name": "Askar Bank"
+  }
+}
