@@ -1,3 +1,4 @@
+import type { Loan } from '../types';
 import type { BankCard, PaymentCategory, PaymentService, Transaction, User } from '../types';
 
 export const initialUser: User = { name: 'Алишер К.' };
@@ -104,7 +105,7 @@ export const additionalServices = [
 ];
 
 // Mock loans
-export const mockLoans = [
+export const mockLoans: Loan[] = [
   { id: 'loan-1', amount: 5_000_000, currency: 'UZS' as const, termMonths: 12, interestRate: 12, status: 'active' },
   { id: 'loan-2', amount: 2_000, currency: 'USD' as const, termMonths: 6, interestRate: 8, status: 'paid' },
 ];
