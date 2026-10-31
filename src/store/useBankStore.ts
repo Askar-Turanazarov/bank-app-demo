@@ -14,6 +14,8 @@ import {
 import type {
   AddCardInput,
   BankCard,
+  Deposit,
+  Loan,
   PaymentCategory,
   PaymentResult,
   PaymentService,
